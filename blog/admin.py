@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Post
+from .models import Post, Comment
 
 
 @admin.register(Post)
@@ -13,3 +13,12 @@ class PostAdmin(admin.ModelAdmin):
     date_hierarchy = 'publish'
     ordering = ['author', 'status']
     show_facets = admin.ShowFacets.ALWAYS
+
+
+@admin.register(Comment)
+class CommentAdmin(admin.ModelAdmin):
+    list_display = ['id', 'name', 'created', 'post', 'active']
+    list_display_links = ['id', 'name']
+    list_filter = ['created', 'active']
+    search_fields = ['name', 'body', 'email']
+
