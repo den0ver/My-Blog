@@ -8,7 +8,8 @@ def post_list(request):
     return render(request, 'blog/post/list.html', context)
 
 
-def post_detail(request, post_id):
-    post = get_object_or_404(Post, id=post_id, status=Post.Status.PUBLISHED)
+def post_detail(request, year, month, day, post):
+    post = get_object_or_404(Post, publish__year=year, publish__month=month, 
+    publish__day=day, slug=post, status=Post.Status.PUBLISHED)
     context = {'post': post}
     return render(request, 'blog/post/detail.html', context)
