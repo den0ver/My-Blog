@@ -1,11 +1,12 @@
 from django.shortcuts import render, get_object_or_404
 from .models import Post
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
-from .forms import EmailPostForm, CommentForm
+from .forms import EmailPostForm, CommentForm, SearchForm
 from django.core.mail import send_mail
 from django.views.decorators.http import require_POST
 from taggit.models import Tag
 from django.db.models import Count
+from django.contrib.postgres.search import SearchVector
 
 
 def post_list(request, tag_slug=None):
@@ -69,3 +70,17 @@ def post_comment(request, post_id):
         comment.save()
     context = {'post': post, 'comment': comment, 'form': form}
     return render(request, 'blog/post/comment.html', context)
+
+
+def post_search(request):
+    form = SearchForm()
+    query = None
+    results = []
+
+    if 'query' in request.GET:
+        form = SearchForm(request.GET)
+        if form.is_valid():
+            query = form.cleaned_data['query']
+            results = (Post.published.annotate(search=SearchVector('title', 'body'))).filter(search=query)
+    context = {'form': form, 'query': query, 'results': results}
+    return render(request, 'blog/post/search.html', context)

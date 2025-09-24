@@ -1,0 +1,72 @@
+[
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "How to Become a Programmer?",
+    "slug": "how-to-become-a-programmer",
+    "body": "**Thinking about a career in programming? Here’s a quick roadmap:**\r\n\r\n🔹 *Pick a language (Python, JavaScript, Java are great for beginners)*\r\n\r\n🔹*Learn fundamentals (variables, loops, functions, OOP)*\r\n\r\n🔹 *Build projects (start small, then expand)*\r\n\r\n🔹 *Use online resources (freeCodeCamp, Codecademy, CS50)*\r\n\r\n🔹 *Join communities (GitHub, Stack Overflow, Reddit)*\r\n\r\n🔹 *Apply for internships/junior roles*\r\n\r\n**Consistency is key!**",
+    "publish": "2025-07-28T18:03:54Z",
+    "created": "2025-07-28T18:06:56.595Z",
+    "updated": "2025-08-25T13:45:19.553Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "What PC Hardware to Choose for a Powerful Build (Basics)?",
+    "slug": "what-pc-hardware-to-choose-for-a-powerful-build-basics",
+    "body": "**Building a budget-friendly yet powerful PC in 2025? Here’s a solid setup:**\r\n\r\n🔹 *CPU: AMD Ryzen 5 7600X / Intel Core i5-13600K*\r\n\r\n🔹*GPU: NVIDIA RTX 4060 / AMD RX 7600 (or integrated if just coding)*\r\n\r\n🔹 *RAM: 16-32GB DDR5*\r\n\r\n🔹*Storage: 1TB NVMe SSD (Crucial P5, Samsung 980)*\r\n\r\n🔹 *Motherboard: B650 (AMD) / B760 (Intel)*\r\n\r\n🔹 *PSU: 600W 80+ Gold (Corsair, EVGA)*\r\n\r\n**This handles coding, light gaming, and multitasking smoothly!**",
+    "publish": "2025-07-28T18:06:57Z",
+    "created": "2025-07-28T18:07:12.635Z",
+    "updated": "2025-08-25T13:50:52.956Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "Top 10 Laptops for Programming & Learning",
+    "slug": "top-10-laptops-for-programming-learning",
+    "body": "**Looking for a dev-friendly laptop? Here are the best picks:**\r\n\r\n1️⃣ *MacBook Pro M3 (best performance & battery)*\r\n\r\n2️⃣ *Dell XPS 15 (great Windows alternative)*\r\n\r\n3️⃣ *Lenovo ThinkPad P16 (durable & powerful)*\r\n\r\n4️⃣ *ASUS ROG Zephyrus G14 (coding + gaming)*\r\n\r\n5️⃣ *HP Spectre x360 (premium 2-in-1)*\r\n\r\n6️⃣ *Framework Laptop 13 (modular & repairable)*\r\n\r\n7️⃣ *Acer Swift X (budget AMD option)*\r\n\r\n8️⃣ *Microsoft Surface Laptop 5 (sleek & portable)*\r\n\r\n9️⃣ *LG Gram 17 (ultra-light + big screen)*\r\n\r\n🔟 *MacBook Air M2 (best value for beginners)*\r\n\r\n**Which one’s your favorite?**",
+    "publish": "2025-07-28T18:07:14Z",
+    "created": "2025-07-28T18:07:41.886Z",
+    "updated": "2025-08-25T13:49:47.270Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "How to Find Side Gigs as a Beginner Developer?",
+    "slug": "how-to-find-side-gigs-as-a-beginner-developer",
+    "body": "**New to coding but want to earn? Try these:**\r\n\r\n🔹 *Freelance platforms (Upwork, Fiverr, Toptal)*\r\n\r\n🔹*Open-source contributions (GitHub, Hacktoberfest)*\r\n\r\n🔹 *Local startups (check AngelList, LinkedIn)*\r\n\r\n🔹 *Internships (Google Summer of Code, Outreachy)*\r\n\r\n🔹 *Microtasks (Fix small bugs, write tutorials)*\r\n\r\n**Pro tip: Build a portfolio (GitHub, personal site) to showcase your work!**",
+    "publish": "2025-07-28T18:07:53Z",
+    "created": "2025-07-28T18:08:07.612Z",
+    "updated": "2025-08-25T13:52:18.301Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "PC vs. Laptop for Programming – Which is Better?",
+    "slug": "pc-vs-laptop-for-programming-which-is-better",
+    "body": "**Desktop PC:**\r\n\r\n🔹 *More power & upgradability*\r\n\r\n🔹 *Better cooling & multitasking*\r\n\r\n🔹 *Cheaper for same specs*\r\n\r\n\r\n**Laptop:**\r\n\r\n🔹 *Portability (work from anywhere)*\r\n\r\n🔹 *All-in-one solution (no extra peripherals)*\r\n\r\n\r\n**Verdict:**\r\n\r\nNeed raw power & budget build? → **PC**\r\n\r\nWant flexibility & mobility? → **Laptop**\r\n\r\n**What’s your setup?**",
+    "publish": "2025-07-28T18:08:08Z",
+    "created": "2025-07-28T18:08:22.374Z",
+    "updated": "2025-08-25T13:55:08.241Z",
+    "status": "PB",
+    "author": 1
+  }
+}
+]
